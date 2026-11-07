@@ -8,24 +8,24 @@ class Vmr < Formula
   on_macos do
     on_arm do
       url "https://github.com/gvcgo/version-manager/releases/download/v0.8.0/vmr-aarch64-apple-darwin.tar.xz"
-      sha256 "1562ae267a987f346e976f32c8abd4ca848ed81aea9d05616e1e6c0f39874338"
+      sha256 "f82b61eb95f1257c0b151d15a4f9dbcd1efdd3f249c9657dd83e66df342190ed"
     end
 
     on_intel do
       url "https://github.com/gvcgo/version-manager/releases/download/v0.8.0/vmr-x86_64-apple-darwin.tar.xz"
-      sha256 "bf74530a11eed239ec29308538d30f9003f05cfd933d49eecf41dde662547598"
+      sha256 "aa3d98c9f2e3d9a7a905c3a251caa4aabbf40f0603e70a299444e5d6523de388"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/gvcgo/version-manager/releases/download/v0.8.0/vmr-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "9b3b0f5a15990a7ccfc8466de214de598598e1ea177f3babb066930a5770d1c3"
+      sha256 "d8699b64c9227091fdea34759c9c48e3ebebc3c7c933f39d2ad0f9c621250eba"
     end
 
     on_intel do
       url "https://github.com/gvcgo/version-manager/releases/download/v0.8.0/vmr-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "0c7313d94b621aea7c88426a914672cb6229d4f30eeff035a191995510d26290"
+      sha256 "fd798c77090f3e022c16d90e5c0add83aec0384878311b7d3a0a64dc9dc25792"
     end
   end
 
