@@ -3,29 +3,29 @@
 class Vmr < Formula
   desc "Cross-platform SDK version manager"
   homepage "https://github.com/gvcgo/version-manager"
-  version "0.8.2"
+  version "0.8.3"
 
   on_macos do
     on_arm do
-      url "https://github.com/gvcgo/version-manager/releases/download/v0.8.2/vmr-aarch64-apple-darwin.tar.xz"
-      sha256 "010448a0dd3a2ed9e836d277778b32207f7bea054187dfa65945e56a80184778"
+      url "https://github.com/gvcgo/version-manager/releases/download/v0.8.3/vmr-aarch64-apple-darwin.tar.xz"
+      sha256 "1923737ad3ed638c2201981c43268e5a3e422818a336d25eabdf39e615724301"
     end
 
     on_intel do
-      url "https://github.com/gvcgo/version-manager/releases/download/v0.8.2/vmr-x86_64-apple-darwin.tar.xz"
-      sha256 "c7c832e046757fd27519d0414b998fb2889f416345055d324d0f3a2abb2ceac8"
+      url "https://github.com/gvcgo/version-manager/releases/download/v0.8.3/vmr-x86_64-apple-darwin.tar.xz"
+      sha256 "4b8a7d4863aa93dd23c849a3b171229d77ca04ec0f22c7d1a7415c50b14adc38"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/gvcgo/version-manager/releases/download/v0.8.2/vmr-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "7527e8e7d9580d1a4a187e7db6b337d4047e0378dfe967418a2f4781875253bc"
+      url "https://github.com/gvcgo/version-manager/releases/download/v0.8.3/vmr-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "1b70493af755e240b5479a34e100e6cb0c6395a306d684a93ef49b8b9de4e2d2"
     end
 
     on_intel do
-      url "https://github.com/gvcgo/version-manager/releases/download/v0.8.2/vmr-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "1c7007818e470bf42109130c91ba2fe5f6aa39beaf6ebd8f79c440431601c98f"
+      url "https://github.com/gvcgo/version-manager/releases/download/v0.8.3/vmr-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "52f572a667148770aff7202ce4ea32f52d62cef7ecc74c83f44bb8091417f464"
     end
   end
 
